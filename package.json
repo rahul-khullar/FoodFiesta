@@ -1,11 +1,10 @@
 {
   "name": "foodfiesta",
   "version": "1.0.0",
-  "description": "This is Food Ordering App",
-  
+  "description": "",
   "scripts": {
-    "start":"parcel public/index.html",
-    "build":"parcel build public/index.html",
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html",
     "test": "jest"
   },
   "keywords": [],
@@ -16,6 +15,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
   }
 }

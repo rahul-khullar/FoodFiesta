@@ -14,9 +14,10 @@ const Header = () => {
         </nav>
       </div>
       <div className="right">
-        <button onClick={toggleLogin}>Login/Logout</button>
-        <button onClick={toggleTheme}>Toggle Theme</button>
+        <button>Login/Logout</button>
+        <button>Toggle Theme</button>
       </div>
     </header>
   );
 };
+export default Header;
