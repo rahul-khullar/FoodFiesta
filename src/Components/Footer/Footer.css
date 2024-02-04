@@ -1,0 +1,29 @@
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    flex: 0 50px;
+    
+}
+
+.fh-icon .fc-icon {
+    margin: 0 5px;
+
+}
+
+strong span {
+    color: #FF6347;
+}
+
+/* Add some spacing between the anchor tag and the icons */
+a {
+    margin: 0 5px;
+}

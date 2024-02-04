@@ -1,17 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./App.css";
-import Header from "./Components/Header"
-import Body from "./Components/Body"
-import Footer from "./Components/Footer";
+import Header from "./Components/Header/Header";
+import Body from "./Components/Body/Body";
+import Footer from "./Components/Footer/Footer";
 
 const AppLayout = () => {
   return (
-    <React.Fragment>
+    <div className="appLayout">
       <Header />
       <Body />
       <Footer />
-    </React.Fragment>
+
+    </div>
   );
 };
 
