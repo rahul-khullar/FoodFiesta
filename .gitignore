@@ -50,7 +50,7 @@ Thumbs.db
 *.wmv
 
 # parcel files
-.parcel-cache
+.parcel-cache/
 
 # Netlify 404 Error file
 _redirects
