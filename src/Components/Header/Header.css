@@ -37,10 +37,26 @@
 
 .center>ul>li {
 
+  list-style-type: none;
     padding: 20px;
     font-size: large;
     cursor: pointer;
 
+}
+
+/* Apply styles to links */
+.center > ul > li > a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Default color */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Apply hover effect */
+.center > ul > li > a:hover {
+  border-radius: 5px; /* Border radius */
+  background-color: orange; /* Orange background */
+  padding: 15px 20px; /* Increase padding for a larger area */
+  color: white; /* Change text color to white */
 }
 
 .right {

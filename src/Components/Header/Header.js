@@ -1,7 +1,7 @@
 import "./Header.css";
 import { FaUser, FaAdjust } from 'react-icons/fa';
-
 import Logo from "../../Assets/Images/Food_Fiesta_Logo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -11,9 +11,9 @@ const Header = () => {
       </div>
       <div className="center">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact Us</li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/aboutus">About</Link></li>
+          <li><Link to="/contactus">Contact Us</Link></li>
         </ul>
       </div>
       <div className="right">
